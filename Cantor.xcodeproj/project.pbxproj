@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77FDFF241F1562C4001FBC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF231F1562C4001FBC92 /* AppDelegate.swift */; };
+		77FDFF261F1562C4001FBC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF251F1562C4001FBC92 /* ViewController.swift */; };
+		77FDFF291F1562C4001FBC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FDFF271F1562C4001FBC92 /* Main.storyboard */; };
+		77FDFF2B1F1562C4001FBC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FDFF2A1F1562C4001FBC92 /* Assets.xcassets */; };
+		77FDFF2E1F1562C4001FBC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FDFF2C1F1562C4001FBC92 /* LaunchScreen.storyboard */; };
+		77FDFF391F1562C4001FBC92 /* CantorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF381F1562C4001FBC92 /* CantorTests.swift */; };
+		77FDFF441F1562C4001FBC92 /* CantorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF431F1562C4001FBC92 /* CantorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77FDFF351F1562C4001FBC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FDFF181F1562C4001FBC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77FDFF1F1F1562C4001FBC92;
+			remoteInfo = Cantor;
+		};
+		77FDFF401F1562C4001FBC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FDFF181F1562C4001FBC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77FDFF1F1F1562C4001FBC92;
+			remoteInfo = Cantor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77FDFF201F1562C4001FBC92 /* Cantor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cantor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FDFF231F1562C4001FBC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77FDFF251F1562C4001FBC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77FDFF281F1562C4001FBC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77FDFF2A1F1562C4001FBC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77FDFF2D1F1562C4001FBC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77FDFF2F1F1562C4001FBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FDFF341F1562C4001FBC92 /* CantorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CantorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FDFF381F1562C4001FBC92 /* CantorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantorTests.swift; sourceTree = "<group>"; };
+		77FDFF3A1F1562C4001FBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FDFF3F1F1562C4001FBC92 /* CantorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CantorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FDFF431F1562C4001FBC92 /* CantorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantorUITests.swift; sourceTree = "<group>"; };
+		77FDFF451F1562C4001FBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77FDFF1D1F1562C4001FBC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FDFF311F1562C4001FBC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FDFF3C1F1562C4001FBC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77FDFF171F1562C4001FBC92 = {
+			isa = PBXGroup;
+			children = (
+				77FDFF221F1562C4001FBC92 /* Cantor */,
+				77FDFF371F1562C4001FBC92 /* CantorTests */,
+				77FDFF421F1562C4001FBC92 /* CantorUITests */,
+				77FDFF211F1562C4001FBC92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77FDFF211F1562C4001FBC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77FDFF201F1562C4001FBC92 /* Cantor.app */,
+				77FDFF341F1562C4001FBC92 /* CantorTests.xctest */,
+				77FDFF3F1F1562C4001FBC92 /* CantorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77FDFF221F1562C4001FBC92 /* Cantor */ = {
+			isa = PBXGroup;
+			children = (
+				77FDFF231F1562C4001FBC92 /* AppDelegate.swift */,
+				77FDFF251F1562C4001FBC92 /* ViewController.swift */,
+				77FDFF271F1562C4001FBC92 /* Main.storyboard */,
+				77FDFF2A1F1562C4001FBC92 /* Assets.xcassets */,
+				77FDFF2C1F1562C4001FBC92 /* LaunchScreen.storyboard */,
+				77FDFF2F1F1562C4001FBC92 /* Info.plist */,
+			);
+			path = Cantor;
+			sourceTree = "<group>";
+		};
+		77FDFF371F1562C4001FBC92 /* CantorTests */ = {
+			isa = PBXGroup;
+			children = (
+				77FDFF381F1562C4001FBC92 /* CantorTests.swift */,
+				77FDFF3A1F1562C4001FBC92 /* Info.plist */,
+			);
+			path = CantorTests;
+			sourceTree = "<group>";
+		};
+		77FDFF421F1562C4001FBC92 /* CantorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77FDFF431F1562C4001FBC92 /* CantorUITests.swift */,
+				77FDFF451F1562C4001FBC92 /* Info.plist */,
+			);
+			path = CantorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77FDFF1F1F1562C4001FBC92 /* Cantor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FDFF481F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "Cantor" */;
+			buildPhases = (
+				77FDFF1C1F1562C4001FBC92 /* Sources */,
+				77FDFF1D1F1562C4001FBC92 /* Frameworks */,
+				77FDFF1E1F1562C4001FBC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cantor;
+			productName = Cantor;
+			productReference = 77FDFF201F1562C4001FBC92 /* Cantor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77FDFF331F1562C4001FBC92 /* CantorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FDFF4B1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorTests" */;
+			buildPhases = (
+				77FDFF301F1562C4001FBC92 /* Sources */,
+				77FDFF311F1562C4001FBC92 /* Frameworks */,
+				77FDFF321F1562C4001FBC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77FDFF361F1562C4001FBC92 /* PBXTargetDependency */,
+			);
+			name = CantorTests;
+			productName = CantorTests;
+			productReference = 77FDFF341F1562C4001FBC92 /* CantorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77FDFF3E1F1562C4001FBC92 /* CantorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FDFF4E1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorUITests" */;
+			buildPhases = (
+				77FDFF3B1F1562C4001FBC92 /* Sources */,
+				77FDFF3C1F1562C4001FBC92 /* Frameworks */,
+				77FDFF3D1F1562C4001FBC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77FDFF411F1562C4001FBC92 /* PBXTargetDependency */,
+			);
+			name = CantorUITests;
+			productName = CantorUITests;
+			productReference = 77FDFF3F1F1562C4001FBC92 /* CantorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77FDFF181F1562C4001FBC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Igor Kalinowski";
+				TargetAttributes = {
+					77FDFF1F1F1562C4001FBC92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 94HM43255T;
+						ProvisioningStyle = Automatic;
+					};
+					77FDFF331F1562C4001FBC92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 94HM43255T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77FDFF1F1F1562C4001FBC92;
+					};
+					77FDFF3E1F1562C4001FBC92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 94HM43255T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77FDFF1F1F1562C4001FBC92;
+					};
+				};
+			};
+			buildConfigurationList = 77FDFF1B1F1562C4001FBC92 /* Build configuration list for PBXProject "Cantor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77FDFF171F1562C4001FBC92;
+			productRefGroup = 77FDFF211F1562C4001FBC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77FDFF1F1F1562C4001FBC92 /* Cantor */,
+				77FDFF331F1562C4001FBC92 /* CantorTests */,
+				77FDFF3E1F1562C4001FBC92 /* CantorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77FDFF1E1F1562C4001FBC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FDFF2E1F1562C4001FBC92 /* LaunchScreen.storyboard in Resources */,
+				77FDFF2B1F1562C4001FBC92 /* Assets.xcassets in Resources */,
+				77FDFF291F1562C4001FBC92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FDFF321F1562C4001FBC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FDFF3D1F1562C4001FBC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77FDFF1C1F1562C4001FBC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FDFF261F1562C4001FBC92 /* ViewController.swift in Sources */,
+				77FDFF241F1562C4001FBC92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FDFF301F1562C4001FBC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FDFF391F1562C4001FBC92 /* CantorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FDFF3B1F1562C4001FBC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FDFF441F1562C4001FBC92 /* CantorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77FDFF361F1562C4001FBC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77FDFF1F1F1562C4001FBC92 /* Cantor */;
+			targetProxy = 77FDFF351F1562C4001FBC92 /* PBXContainerItemProxy */;
+		};
+		77FDFF411F1562C4001FBC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77FDFF1F1F1562C4001FBC92 /* Cantor */;
+			targetProxy = 77FDFF401F1562C4001FBC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77FDFF271F1562C4001FBC92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FDFF281F1562C4001FBC92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77FDFF2C1F1562C4001FBC92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FDFF2D1F1562C4001FBC92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77FDFF461F1562C4001FBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77FDFF471F1562C4001FBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77FDFF491F1562C4001FBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94HM43255T;
+				INFOPLIST_FILE = Cantor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ixy.Cantor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		77FDFF4A1F1562C4001FBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94HM43255T;
+				INFOPLIST_FILE = Cantor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ixy.Cantor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		77FDFF4C1F1562C4001FBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 94HM43255T;
+				INFOPLIST_FILE = CantorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ixy.CantorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cantor.app/Cantor";
+			};
+			name = Debug;
+		};
+		77FDFF4D1F1562C4001FBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 94HM43255T;
+				INFOPLIST_FILE = CantorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ixy.CantorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cantor.app/Cantor";
+			};
+			name = Release;
+		};
+		77FDFF4F1F1562C4001FBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 94HM43255T;
+				INFOPLIST_FILE = CantorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ixy.CantorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cantor;
+			};
+			name = Debug;
+		};
+		77FDFF501F1562C4001FBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 94HM43255T;
+				INFOPLIST_FILE = CantorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ixy.CantorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cantor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77FDFF1B1F1562C4001FBC92 /* Build configuration list for PBXProject "Cantor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FDFF461F1562C4001FBC92 /* Debug */,
+				77FDFF471F1562C4001FBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77FDFF481F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "Cantor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FDFF491F1562C4001FBC92 /* Debug */,
+				77FDFF4A1F1562C4001FBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77FDFF4B1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FDFF4C1F1562C4001FBC92 /* Debug */,
+				77FDFF4D1F1562C4001FBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77FDFF4E1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FDFF4F1F1562C4001FBC92 /* Debug */,
+				77FDFF501F1562C4001FBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77FDFF181F1562C4001FBC92 /* Project object */;
+}
