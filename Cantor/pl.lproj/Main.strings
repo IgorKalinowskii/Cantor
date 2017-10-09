@@ -1,0 +1,57 @@
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "1LB-2v-SpO"; */
+"1LB-2v-SpO.placeholder" = "Country";
+
+/* Class = "UILabel"; text = "100000"; ObjectID = "25m-vx-gxH"; */
+"25m-vx-gxH.text" = "100000";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "3a8-Fo-TJl"; */
+"3a8-Fo-TJl.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "GO"; ObjectID = "4p7-yI-6YC"; */
+"4p7-yI-6YC.normalTitle" = "GO";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "A5y-eN-3jT"; */
+"A5y-eN-3jT.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Don't have account yet? Create one..."; ObjectID = "Aea-Tm-RYv"; */
+"Aea-Tm-RYv.normalTitle" = "Don't have account yet? Create one...";
+
+/* Class = "UITextField"; placeholder = "or Sign In with Google"; ObjectID = "LDo-hS-ADH"; */
+"LDo-hS-ADH.placeholder" = "or Sign In with Google";
+
+/* Class = "UIButton"; normalTitle = "USD"; ObjectID = "Puz-bb-B7h"; */
+"Puz-bb-B7h.normalTitle" = "USD";
+
+/* Class = "UIBarButtonItem"; title = "BACK"; ObjectID = "V7U-Ww-w2L"; */
+"V7U-Ww-w2L.title" = "BACK";
+
+/* Class = "UIButton"; normalTitle = "BACK"; ObjectID = "VgQ-5V-QXg"; */
+"VgQ-5V-QXg.normalTitle" = "BACK";
+
+/* Class = "UIButton"; normalTitle = "Loggining"; ObjectID = "WZL-RJ-CGP"; */
+"WZL-RJ-CGP.normalTitle" = "Loggining";
+
+/* Class = "UISegmentedControl"; as2-54-BXI.segmentTitles[0] = "BUY"; ObjectID = "as2-54-BXI"; */
+"as2-54-BXI.segmentTitles[0]" = "BUY";
+
+/* Class = "UISegmentedControl"; as2-54-BXI.segmentTitles[1] = "SELL"; ObjectID = "as2-54-BXI"; */
+"as2-54-BXI.segmentTitles[1]" = "SELL";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ewi-gp-HMO"; */
+"ewi-gp-HMO.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "REGISTER"; ObjectID = "hXN-Ja-aU4"; */
+"hXN-Ja-aU4.normalTitle" = "REGISTER";
+
+/* Class = "UIButton"; normalTitle = "BACK"; ObjectID = "hc8-aJ-yd5"; */
+"hc8-aJ-yd5.normalTitle" = "BACK";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mvr-B4-vnu"; */
+"mvr-B4-vnu.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Put the value there"; ObjectID = "tkG-PO-9If"; */
+"tkG-PO-9If.placeholder" = "Put the value there";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "utp-94-aG1"; */
+"utp-94-aG1.placeholder" = "Password";

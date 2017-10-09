@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17850EFCD84561BE15857446 /* Pods_Cantor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E2BEBB464B4862272A83A6 /* Pods_Cantor.framework */; };
+		648EC49DBB3EB6D53BD0D135 /* Pods_CantorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2D25E4CBA50E3C4624D0BC /* Pods_CantorTests.framework */; };
+		7338555E548C55E847350D0F /* Pods_CantorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EBE8636DEB0FD3A7B6B094 /* Pods_CantorUITests.framework */; };
+		77B37F061F184D29001DC2D3 /* Cantor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B37F051F184D29001DC2D3 /* Cantor.swift */; };
+		77B37F091F18D01B001DC2D3 /* currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77B37F081F18D01B001DC2D3 /* currencies.plist */; };
 		77FDFF241F1562C4001FBC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF231F1562C4001FBC92 /* AppDelegate.swift */; };
 		77FDFF261F1562C4001FBC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF251F1562C4001FBC92 /* ViewController.swift */; };
 		77FDFF291F1562C4001FBC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FDFF271F1562C4001FBC92 /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		77FDFF2E1F1562C4001FBC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FDFF2C1F1562C4001FBC92 /* LaunchScreen.storyboard */; };
 		77FDFF391F1562C4001FBC92 /* CantorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF381F1562C4001FBC92 /* CantorTests.swift */; };
 		77FDFF441F1562C4001FBC92 /* CantorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF431F1562C4001FBC92 /* CantorUITests.swift */; };
+		77FDFF5C1F166B24001FBC92 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF5B1F166B24001FBC92 /* SuccessViewController.swift */; };
+		77FDFF5E1F166CF5001FBC92 /* FailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FDFF5D1F166CF5001FBC92 /* FailedViewController.swift */; };
+		77FDFF601F1692F3001FBC92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77FDFF5F1F1692F3001FBC92 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08E040EDE5596A3E64BA4637 /* Pods-CantorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CantorUITests/Pods-CantorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D2D25E4CBA50E3C4624D0BC /* Pods_CantorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CantorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E2BEBB464B4862272A83A6 /* Pods_Cantor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cantor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2837D8E5589E034CC071F3D7 /* Pods-Cantor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cantor/Pods-Cantor.release.xcconfig"; sourceTree = "<group>"; };
+		39EBE8636DEB0FD3A7B6B094 /* Pods_CantorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CantorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B37F051F184D29001DC2D3 /* Cantor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cantor.swift; sourceTree = "<group>"; };
+		77B37F081F18D01B001DC2D3 /* currencies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = currencies.plist; sourceTree = "<group>"; };
+		77B37F0B1F18E691001DC2D3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		77B37F0C1F18E691001DC2D3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		77FDFF201F1562C4001FBC92 /* Cantor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cantor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FDFF231F1562C4001FBC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77FDFF251F1562C4001FBC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,13 @@
 		77FDFF3F1F1562C4001FBC92 /* CantorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CantorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FDFF431F1562C4001FBC92 /* CantorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantorUITests.swift; sourceTree = "<group>"; };
 		77FDFF451F1562C4001FBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FDFF5B1F166B24001FBC92 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		77FDFF5D1F166CF5001FBC92 /* FailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailedViewController.swift; sourceTree = "<group>"; };
+		77FDFF5F1F1692F3001FBC92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		884485D1EF4ACAF85BFD57B9 /* Pods-Cantor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cantor/Pods-Cantor.debug.xcconfig"; sourceTree = "<group>"; };
+		8BC20AE6F4E771DEBADAD2A5 /* Pods-CantorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CantorUITests/Pods-CantorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91CABEBEAC23BEDD305C6994 /* Pods-CantorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CantorTests/Pods-CantorTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC9F9C8F7063BDE56083BE53 /* Pods-CantorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CantorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CantorTests/Pods-CantorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17850EFCD84561BE15857446 /* Pods_Cantor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648EC49DBB3EB6D53BD0D135 /* Pods_CantorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7338555E548C55E847350D0F /* Pods_CantorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B8C7CE0D8173D0E853E2F3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				884485D1EF4ACAF85BFD57B9 /* Pods-Cantor.debug.xcconfig */,
+				2837D8E5589E034CC071F3D7 /* Pods-Cantor.release.xcconfig */,
+				FC9F9C8F7063BDE56083BE53 /* Pods-CantorTests.debug.xcconfig */,
+				91CABEBEAC23BEDD305C6994 /* Pods-CantorTests.release.xcconfig */,
+				08E040EDE5596A3E64BA4637 /* Pods-CantorUITests.debug.xcconfig */,
+				8BC20AE6F4E771DEBADAD2A5 /* Pods-CantorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77B37F021F184C63001DC2D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				77FDFF5B1F166B24001FBC92 /* SuccessViewController.swift */,
+				77FDFF5D1F166CF5001FBC92 /* FailedViewController.swift */,
+				77FDFF251F1562C4001FBC92 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		77B37F031F184C8E001DC2D3 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				77FDFF271F1562C4001FBC92 /* Main.storyboard */,
+				77FDFF2C1F1562C4001FBC92 /* LaunchScreen.storyboard */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		77B37F041F184CC4001DC2D3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				77FDFF2A1F1562C4001FBC92 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		77B37F071F184D4B001DC2D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77B37F051F184D29001DC2D3 /* Cantor.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		77B37F0A1F18D034001DC2D3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				77B37F081F18D01B001DC2D3 /* currencies.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		77FDFF171F1562C4001FBC92 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +164,8 @@
 				77FDFF371F1562C4001FBC92 /* CantorTests */,
 				77FDFF421F1562C4001FBC92 /* CantorUITests */,
 				77FDFF211F1562C4001FBC92 /* Products */,
+				6B8C7CE0D8173D0E853E2F3F /* Pods */,
+				DD3D259BE0D92E2C892FA7E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +182,14 @@
 		77FDFF221F1562C4001FBC92 /* Cantor */ = {
 			isa = PBXGroup;
 			children = (
+				77B37F041F184CC4001DC2D3 /* Assets */,
 				77FDFF231F1562C4001FBC92 /* AppDelegate.swift */,
-				77FDFF251F1562C4001FBC92 /* ViewController.swift */,
-				77FDFF271F1562C4001FBC92 /* Main.storyboard */,
-				77FDFF2A1F1562C4001FBC92 /* Assets.xcassets */,
-				77FDFF2C1F1562C4001FBC92 /* LaunchScreen.storyboard */,
+				77B37F0A1F18D034001DC2D3 /* Data */,
+				77B37F071F184D4B001DC2D3 /* Models */,
+				77FDFF541F1640D3001FBC92 /* App */,
+				77B37F031F184C8E001DC2D3 /* Interfaces */,
 				77FDFF2F1F1562C4001FBC92 /* Info.plist */,
+				77FDFF5F1F1692F3001FBC92 /* GoogleService-Info.plist */,
 			);
 			path = Cantor;
 			sourceTree = "<group>";
@@ -125,6 +212,24 @@
 			path = CantorUITests;
 			sourceTree = "<group>";
 		};
+		77FDFF541F1640D3001FBC92 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				77B37F021F184C63001DC2D3 /* ViewControllers */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		DD3D259BE0D92E2C892FA7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E2BEBB464B4862272A83A6 /* Pods_Cantor.framework */,
+				0D2D25E4CBA50E3C4624D0BC /* Pods_CantorTests.framework */,
+				39EBE8636DEB0FD3A7B6B094 /* Pods_CantorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +237,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77FDFF481F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "Cantor" */;
 			buildPhases = (
+				41418082D3CF795664CC11DB /* [CP] Check Pods Manifest.lock */,
 				77FDFF1C1F1562C4001FBC92 /* Sources */,
 				77FDFF1D1F1562C4001FBC92 /* Frameworks */,
 				77FDFF1E1F1562C4001FBC92 /* Resources */,
+				77FDFF511F156460001FBC92 /* ShellScript */,
+				0A0EAB9F84A6BC1DE6F32C8D /* [CP] Embed Pods Frameworks */,
+				72DF83C4B94F6F92CBE085E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77FDFF4B1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorTests" */;
 			buildPhases = (
+				A0E72D48F65C638CF9CBC59E /* [CP] Check Pods Manifest.lock */,
 				77FDFF301F1562C4001FBC92 /* Sources */,
 				77FDFF311F1562C4001FBC92 /* Frameworks */,
 				77FDFF321F1562C4001FBC92 /* Resources */,
+				41D3324EE9417BF2921F87A2 /* [CP] Embed Pods Frameworks */,
+				A0694501D8D5C1A9C093E32B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77FDFF4E1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorUITests" */;
 			buildPhases = (
+				AC33970AEE2C19D9429D50A6 /* [CP] Check Pods Manifest.lock */,
 				77FDFF3B1F1562C4001FBC92 /* Sources */,
 				77FDFF3C1F1562C4001FBC92 /* Frameworks */,
 				77FDFF3D1F1562C4001FBC92 /* Resources */,
+				DCED8BFDED00802A51B065D7 /* [CP] Embed Pods Frameworks */,
+				929A797DCD1FF6CAA163954C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,7 +350,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B37F091F18D01B001DC2D3 /* currencies.plist in Resources */,
 				77FDFF2E1F1562C4001FBC92 /* LaunchScreen.storyboard in Resources */,
+				77FDFF601F1692F3001FBC92 /* GoogleService-Info.plist in Resources */,
 				77FDFF2B1F1562C4001FBC92 /* Assets.xcassets in Resources */,
 				77FDFF291F1562C4001FBC92 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +374,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A0EAB9F84A6BC1DE6F32C8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cantor/Pods-Cantor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41418082D3CF795664CC11DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41D3324EE9417BF2921F87A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CantorTests/Pods-CantorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DF83C4B94F6F92CBE085E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cantor/Pods-Cantor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FDFF511F156460001FBC92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
+		929A797DCD1FF6CAA163954C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CantorUITests/Pods-CantorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0694501D8D5C1A9C093E32B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CantorTests/Pods-CantorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E72D48F65C638CF9CBC59E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC33970AEE2C19D9429D50A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCED8BFDED00802A51B065D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CantorUITests/Pods-CantorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77FDFF1C1F1562C4001FBC92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				77FDFF261F1562C4001FBC92 /* ViewController.swift in Sources */,
+				77FDFF5E1F166CF5001FBC92 /* FailedViewController.swift in Sources */,
+				77B37F061F184D29001DC2D3 /* Cantor.swift in Sources */,
 				77FDFF241F1562C4001FBC92 /* AppDelegate.swift in Sources */,
+				77FDFF5C1F166B24001FBC92 /* SuccessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +574,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				77FDFF281F1562C4001FBC92 /* Base */,
+				77B37F0B1F18E691001DC2D3 /* pl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -311,6 +583,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				77FDFF2D1F1562C4001FBC92 /* Base */,
+				77B37F0C1F18E691001DC2D3 /* pl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -322,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -373,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -415,6 +690,7 @@
 		};
 		77FDFF491F1562C4001FBC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884485D1EF4ACAF85BFD57B9 /* Pods-Cantor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94HM43255T;
@@ -428,6 +704,7 @@
 		};
 		77FDFF4A1F1562C4001FBC92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2837D8E5589E034CC071F3D7 /* Pods-Cantor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 94HM43255T;
@@ -441,6 +718,7 @@
 		};
 		77FDFF4C1F1562C4001FBC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9F9C8F7063BDE56083BE53 /* Pods-CantorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +734,7 @@
 		};
 		77FDFF4D1F1562C4001FBC92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CABEBEAC23BEDD305C6994 /* Pods-CantorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +750,7 @@
 		};
 		77FDFF4F1F1562C4001FBC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E040EDE5596A3E64BA4637 /* Pods-CantorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 94HM43255T;
@@ -485,6 +765,7 @@
 		};
 		77FDFF501F1562C4001FBC92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC20AE6F4E771DEBADAD2A5 /* Pods-CantorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 94HM43255T;
@@ -516,6 +797,7 @@
 				77FDFF4A1F1562C4001FBC92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77FDFF4B1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +806,7 @@
 				77FDFF4D1F1562C4001FBC92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77FDFF4E1F1562C4001FBC92 /* Build configuration list for PBXNativeTarget "CantorUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +815,7 @@
 				77FDFF501F1562C4001FBC92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

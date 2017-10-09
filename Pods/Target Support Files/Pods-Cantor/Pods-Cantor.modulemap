@@ -1,0 +1,6 @@
+framework module Pods_Cantor {
+  umbrella header "Pods-Cantor-umbrella.h"
+
+  export *
+  module * { export * }
+}

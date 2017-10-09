@@ -1,0 +1,6 @@
+framework module Pods_CantorUITests {
+  umbrella header "Pods-CantorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
